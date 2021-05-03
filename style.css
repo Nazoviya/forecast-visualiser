@@ -1,0 +1,196 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+body{
+  font-family: monospace;
+  font-weight: bold;
+  background: #f8f8f8;
+}
+
+.input{
+  text-align: center;
+  margin: 10px auto;
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: 3px solid lime;
+  border-radius: 50px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.input input[type="text"]{
+  display: inline-block;
+  width: 600px;
+  width: 60%;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-family: monospace;
+  font-weight: bold; 
+  font-size: 20px;
+}
+
+.card{
+  width: 70%;
+  background: #e7e7e7;
+  height: 55vh;
+  margin: 85px auto;
+  border-radius: 50px;  
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  border: none;
+}
+
+#but1 {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin: 15px;
+  margin-left: 257px;
+  border-radius: 50px;
+}
+
+#but2 {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin :15px;
+  border-radius: 50px;
+  margin-right: 2px;
+  margin-left: 4px;
+}
+
+#but3 {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin: 15px;
+  border-radius: 50px;
+  margin-right: 4px;
+}
+
+#but4 {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin: 15px;
+  border-radius: 50px;
+  margin-right: 4px;
+}
+#but5 {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin: 15px;
+  border-radius: 50px;
+  margin-right: 4px;
+}
+
+#but6 {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin: 15px;
+  border-radius: 50px;
+  color: white;
+  background-color: red;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.input iframe {
+  position: fixed;
+  bottom: 10px;
+  width: 90%;
+  height: 545px;
+  display: block;
+  visibility: hidden;
+  left: 5%;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+#name {
+  padding-top: 20px;
+  color: red;
+}

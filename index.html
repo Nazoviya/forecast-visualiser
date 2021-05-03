@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Service-oriented application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- <div class="main">
+    <div class="header">
+      <h1>OpenWeatherMap API</h1>
+      <p>Enter any city name in the input box below to get the data</p>
+    </div> -->
+  
+    <div class="input">
+      <!-- declaration of text and submit buttons -->
+      <input type="text" placeholder="Enter the city" class="input_text">
+      <input type="submit" value="Submit" class="submit">
+      <!-- declaration of OpenWeatherMap API maps, for precipitation, temperature,
+      pressure, wind speed and degree, and clouds -->
+      <iframe id="frame" name="myFrame"></iframe>
+      <button id="but1" onclick="demoVisibility()"><a href="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=radar&lat=41.0351&lon=28.9833&zoom=12" target="myFrame">Precipitation</button>
+      <button id="but2" onclick="demoVisibility()"><a href="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=41.0351&lon=28.9833&zoom=12" target="myFrame">Temperature</a></button>
+      <button id="but3" onclick="demoVisibility()"><a href="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=pressure&lat=41.0351&lon=28.9833&zoom=12" target="myFrame">Pressure</a></button>
+      <button id="but4" onclick="demoVisibility()"><a href="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=windspeed&lat=41.0351&lon=28.9833&zoom=12" target="myFrame">Wind Speed</a></button>
+      <button id="but5" onclick="demoVisibility()"><a href="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=clouds&lat=41.0351&lon=28.9833&zoom=12" target="myFrame">Clouds</a></button>
+      <!-- declaration of closing button for maps -->
+      <button id="but6" onclick="demoHidden()"><a target="myFrame">X</a></button>
+    </div>
+  </div>
+  <!-- declaration of div classes for every value that should be visualized -->
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="desc"></p>
+      <p class="temp"></p>
+      <p class="pressure"></p>
+      <p class="humidity"></p>
+      <p class="speed"></p>
+    </div>
+  </div>
+  <!-- including app.js file at the end of the file in order to use content of this script -->
+<script src="app.js"></script>
+</body>
+</html>
