@@ -12,7 +12,7 @@ var button= document.querySelector('.submit');
 //addEventListner() function added to check if button is clicked
 button.addEventListener('click', function(){
   //specific id for user also added here for using values in the OpenWeatherMap API
-  fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=4b0ccc9bc0b577a7cc4963824cb40d6b')
+  fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=your-api-key')
   .then(response => response.json())
   .then(data => {
 
